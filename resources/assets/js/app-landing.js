@@ -27,6 +27,6 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('service-worker.js').then(function () {
         console.log('Todo okey');
     }).catch(function (err) {
-        console.log('Error')
+        console.log('Error' + err)
     })
 }
